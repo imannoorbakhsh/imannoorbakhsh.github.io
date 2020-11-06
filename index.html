@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Seyed Iman Noorbakhsh</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loading">
+        <div id="spinner"></div> 
+    </div>
+
+    <!-- home page particiles -->
+    <div id="particles-js"></div>
+
+    <!-- preloading flexes -->
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+
+    <!-- three pages that will overlay eventually -->
+
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+
+    <!-- Middle stuff including profile, name, exprtise field and icons-->
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <img src="Assets/Images/Avatar.jpg" alt="Avatar" class="avatar">
+        <h1>Iman Noorbakhsh</h1>
+        <h2>User Experience Researcher / Interaction Designer</h2>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://www.linkedin.com/in/imannoorbakhsh" target="_blank"><i class="fab fa-linkedin-in"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://github.com/imannoorbakhsh" target="_blank"><i class="fab fa-github"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="https://twitter.com/iman_noorbakhsh" target="_blank"><i class="fab fa-twitter"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social" href="https://medium.com/@imannoorbakhsh" target="_blank"><i class="fab fa-medium-m"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:3s;"><a class="social" href="https://dribbble.com/imannoorbakhsh" target="_blank"><i class="fab fa-dribbble"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:3.2s;"><a class="social" href="mailto:imannoorbakhsh.it@gmail.com"><i class="fas fa-envelope"></i></a></td>
+                </tr>
+        </table>
+    </div>
+
+        <!-- Contact Container -->
+          <div id="about_container" class="container">
+            <span id="large-header">
+                <canvas id="demo-canvas"></canvas>
+            </span>
+            <div onclick="closeabout()"><i class="fas fa-angle-down"></i></div>
+            <h1>about</h1>
+            <section>
+                <h2>about me</h2>
+                <p align="justify">
+                    I did my bachelor of science in Computer Engineering (Information Technology) at the University of Tabriz. My area of expertise was security and computer maintenance. In my second semester, I took an internship at the Computer Emergency Response Team Laboratory of the University of Tabriz (APA). Every week, we reported directly to <a class="link" href="https://scholar.google.com/citations?user=uKUZUJMAAAAJ&hl=en" target="_blank"> Dr. Mina Zolfy Lighvan</a>, the laboratory founder and manager.
+                </p>
+                <p align="justify">
+                    In the meantime, I started learning Kali Linux and watching cryptography courses from Ruhr University Bochum. In 2016, I decided to expand my knowledge in network engineering. I was able to get CCNA certification in both Routing & Switching and Datacenter.
+                </p>
+                <p align="justify">
+                    In 2018, I got an offer to work with a professional team as a UI/UX designer. Our team worked directly under the supervision of <a class="link" href="https://scholar.google.com/citations?user=Gk_unoIAAAAJ&hl=en" target="_blank"> Dr. Farnaz Derakhshan</a>. We held weekly meetings to report about the assigned task to both Dr. Derakhshan and our project manager.  It was at that time when I realized how much I am in love with this field.                
+                </p>
+                <p align="justify">
+                    Currently, I am planning to apply for human-computer interaction as my master's degree. For me, the beauty of this field is the multidisciplinary nature of HCI. It combines theories and practices from several fields, including computer science, cognitive science, anthropology, design, psychology, etc. Therefore, you need to master all these disciplines in order to be able to combine visual elements with computer science and human nature.                
+                </p>
+            </section>
+            <section>
+                <h2>Resume</h2>
+                <p align="justify">
+                    You can download my resume, which is a brief summary of my skills and work history, from the following link. You can also check out my CV, which contains more information about my educational background, career achievement, and accomplishments. 
+                </p>
+                <a href="Assets/Resume & CV/Iman Noorbakhsh-Resume-EN.pdf" download><button class="btn"><i class="fas fa-download"></i> Resume </button></a>
+                <a href="Assets/Resume & CV/Iman Noorbakhsh-CV-EN.pdf" download><button class="btn"><i class="fas fa-download"></i>  CV </button></a>
+            </section>
+            
+        </div>
+
+    <!-- Javascript Files -->
+    <script src="index.js" type="text/javascript"></script>
+    <script src="Scripts/animDots.js"></script>
+    <!-- <script src="Scripts/particles.js"></script>
+    <script src="Scripts/app.js"></script> -->
+    
+</body>
+</html>
